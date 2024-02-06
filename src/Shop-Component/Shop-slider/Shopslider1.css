@@ -1,0 +1,38 @@
+.shopslider1{
+    margin: 2vw 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url("/public/images/snackbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.shopslider1 .in1 h1{
+    margin-top: 5vw;
+    font-size: 5rem;
+}
+.shopslider1 .in1 p{
+    margin-top: .5vw;
+    margin-bottom: 5vw;
+    font-size: 2rem;
+}
+.shopslider1 .in2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.shopslider1 .in2 ul li{
+    background-color: rgb(234, 210, 179);
+    border-radius: 10px;
+    font-size: 1.7rem;
+    padding: .5vw 1vw;
+}
+.shopslider1 .in2 ul li:hover{
+    transform: translateY(-5px);
+    background-color:greenyellow;
+    color:black;
+}

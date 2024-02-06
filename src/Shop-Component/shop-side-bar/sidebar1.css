@@ -1,0 +1,42 @@
+.sidebar{
+    padding: .57vw;
+    outline: 1px solid rgb(193, 180, 180);
+    border: none;
+    border-radius: 10px;
+}
+.sidebar h1{
+    margin: 0 0 1.5vw 0;
+    font-size: 3rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.sidebar ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5vw 0;
+    text-align: center;
+    padding: .2vw 1vw;
+}
+.sidebar ul li:hover{
+    outline: 1px solid gray;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+}
+.sidebar ul li .image{
+    width: 15%;
+}
+.sidebar ul li .image img{
+    width: 100%;
+}
+.sidebar ul li p{
+     font-size: 2rem;
+     font-weight: 600;
+}
+.sidebar ul li p1{
+     font-size: 2rem;
+     font-weight: 600;
+     background-color: rgba(172, 255, 47, 0.687);
+     padding: .5vw .7vw;
+     border-radius: 50%;
+}

@@ -1,0 +1,53 @@
+.Aboutslider3-main{
+
+}
+.Aboutslider3-main .main-in{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3vw 0;
+}
+.Aboutslider3-main .main-in .main-left{
+    width: 55%;
+    
+}
+.Aboutslider3-main .main-in .main-left img{
+    width: 100%;
+}
+.Aboutslider3-main .main-in .main-right{
+    width: 40%;
+}
+.Aboutslider3-main .main-in .main-right h1{
+    font-size: 3.5rem;
+    margin: 1vw;
+}
+.Aboutslider3-main .main-in .main-right h2{
+    font-size: 3rem;
+    margin: 1vw;
+}
+.Aboutslider3-main .main-in .main-right p{
+    font-size: 2rem;
+    margin: 1vw;
+}
+.Aboutslider3-main .main-in-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-in-1 .main-info{
+    outline: 1px solid gray;
+    border-radius: 10px;
+    text-align: start;
+    width: 32%;
+}
+.main-in-1 .main-info:hover{
+    box-shadow: 1px 1px 10px black;
+}
+.main-in-1 .main-info h1{
+    margin: 1vw;
+    font-size: 3.5rem;
+}
+.main-in-1 .main-info p{
+    margin: 1vw;
+    font-size: 2rem;
+}

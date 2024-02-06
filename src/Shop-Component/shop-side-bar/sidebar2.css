@@ -1,0 +1,43 @@
+.sidebar2-main{
+    outline: 1px solid rgb(193, 180, 180);
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5vw;
+    padding-left: 1vw;
+}
+.sidebar2-main h1{
+    margin: 0 0 1vw 0;
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.sidebar2-main .main{
+    padding: 0 0 0 1vw;
+}
+.sidebar2-main .p{
+    color: rgb(116, 142, 73);
+    font-size: 2rem;
+    margin-bottom: .1vw;
+}
+.sidebar2-main .p1{
+    color: rgb(116, 142, 73);
+    font-size: 2rem;
+    margin-bottom: .5vw;
+    margin-top: .7vw;
+}
+.sidebar2-main .main ul li{
+    display: flex;
+    gap: 10px;
+    font-size: 2rem;
+}
+.sidebar2-main .main button{
+    width: fit-content;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: .5vw 1vw;
+    margin-bottom: 10px;
+}
+.sidebar2-main .main button:hover{
+    background-color: greenyellow;
+    color: black;
+}

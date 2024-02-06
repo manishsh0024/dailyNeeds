@@ -1,0 +1,39 @@
+.sidebar3{
+    outline: 1px solid rgb(193, 180, 180);
+    border-radius: 10px;
+    margin-top: 1.7vw;
+    padding-left: 1vw;
+}
+.sidebar3 h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1vw;
+    text-decoration: underline;
+}
+.sidebar3 .inner-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sidebar3 .inner-div .inner-img{
+    width: 40%;
+}
+.sidebar3 .inner-div .inner-img img{
+    width: 100%;
+}
+.sidebar3 .inner-div .inner-text{
+    
+}
+.sidebar3 .inner-div .inner-text h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.sidebar3 .inner-div .inner-text price{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.sidebar3 .inner-div .inner-text p{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}

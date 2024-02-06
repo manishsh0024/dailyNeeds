@@ -1,0 +1,52 @@
+.Aboutslider2-main{
+
+}
+.Aboutslider2-main .headp{
+    position: relative;
+    text-align: center;
+}
+.Aboutslider2-main .headh1{
+    position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 5rem;
+}
+.Aboutslider2-main p img{
+    width: 300px;
+}
+.Aboutslider2-main .Aboutslider2-text-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.Aboutslider2-main .Aboutslider2-text-main .text-main-in{
+    padding: 1vw;
+    margin: .5vw;
+    border-radius: 10px;
+    width: 30%;
+}
+.Aboutslider2-main .Aboutslider2-text-main .text-main-in:hover{
+    box-shadow: 1px 1px 10px black;
+}
+.Aboutslider2-main .Aboutslider2-text-main .text-main-in .image{
+    padding: 1vw;
+    margin: .5vw;
+}
+.Aboutslider2-main .Aboutslider2-text-main .text-main-in h1{
+    margin: 1vw 0;
+    font-size: 3rem;
+}
+.Aboutslider2-main .Aboutslider2-text-main .text-main-in p{
+    font-size: 2rem;
+    margin: 1vw 0;
+}
+.Aboutslider2-main .Aboutslider2-text-main .text-main-in h4 a{
+    padding: .5vw;
+    color: red;
+}
+.Aboutslider2-main .Aboutslider2-text-main .text-main-in h4 a:hover{
+    color: blue;
+}

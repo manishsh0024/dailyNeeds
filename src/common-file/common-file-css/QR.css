@@ -1,0 +1,11 @@
+.qr-code{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr-code .qr{
+    box-shadow: 1px 1px 10px black;
+    padding: 1vw;
+    border-radius: 10px;
+}

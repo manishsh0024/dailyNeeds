@@ -1,0 +1,104 @@
+.shopslider2{
+    margin: 1vw auto;
+    height: 420px;
+}
+.shopslider2 h1{
+    font-size: 3rem;
+    margin: 1vw 0;
+}
+.shopslider2-in{
+    display: flex;
+    justify-content: space-between;
+}
+.shopslider-main{
+    box-shadow: 1px 1px 10px black;
+    width: 24%;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+}
+.shopslider2 #div1{
+    background-image: url("/public/images/banner-5\ -\ Copy.png");
+}
+.shopslider2 #div2{
+    background-image: url("/public/images/banner-6 - Copy.png");
+}
+.shopslider2 #div3{
+    background-image: url("/public/images/banner-7 - Copy.png");
+}
+.shopslider2 #div4{
+    background-image: url("/public/images/banner-8 - Copy.png");
+}
+.shopslider-main-in{
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    padding: 3px;
+}
+.shopslider-main-in:hover{
+    transition: .4s;
+    transform: translateY(-5px);
+}
+
+.shopcountdown ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopcountdown ul li{
+    border-radius: 5px;
+    text-align: center;
+    background-color: #83bb83;
+    margin: .5vw .1vw;
+    padding:.4vw .5vw;
+}
+.shopcountdown li h2{
+    font-size: 1.5rem;
+}
+.shopcountdown li p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.shopslider-main .details h1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.shopslider-main .details{
+    border-radius: 10px;
+    background: #83bb83;
+    padding: .5vw;
+}
+.shopslider-main .details p{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.shopslider-main .details h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.shopslider-main .details .details-in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopslider-main .details .details-in p{
+    font-size:2rem;
+}
+.shopslider-main .details .details-in button{
+    width: 50%;
+    padding: 0.5vw 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.shopslider-main .details .details-in button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.shopslider-main .details .details-in button i{
+    padding: .2vw;
+}
+.shopslider2-mrp{
+    text-decoration: line-through;
+}

@@ -1,0 +1,121 @@
+
+.slide2-main{
+    display: block;
+}
+.slide-div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-div1 h1{
+    font-size:3rem;
+}
+.slide-div1 ul li{
+    font-size: 2rem;
+    padding: 10px;
+}
+.slide-div1 ul{
+    display: flex;
+    margin: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-div2 h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.slide-div2 p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.slide-div2 .photo-div:hover {
+    transition: .3s;
+    outline: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+    
+}
+.slide-div2 .photo-div{
+    box-shadow: 1px 1px 5px black;
+    width: 10%;
+    margin:0 5px;
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.slide-div2 .photo-div .image-div{
+    overflow: hidden;
+}
+
+.slide-div2 .photo-div img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.slide-div2 .photo-div img:hover{ 
+    transition: .3s;
+    transform: scale(1.2);
+}
+.slide-div3 .banner{
+    margin: 1vw 0;
+    padding: 1vw 0;
+}
+.slide-div3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slide-div3 p{
+    text-align: start;
+    padding: 25px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.slide-div3 .banner{
+    width: 30%;
+    height: fit-content;
+    overflow: hidden;
+}
+.slide-div3 .btn1{
+    width: fit-content;
+    padding: .2vw .5vw;
+    margin: 30px 0 35px 25px;
+}
+.slide-div3 .btn1:hover{
+    background-color: orange;
+}
+.slide-div3 #banner1{
+    background-image: url("/public/category-images/banner-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline:none;
+    border:none;
+    box-shadow:1px 1px 10px black;
+    border-radius:10px;
+}
+.slide-div3 #banner2{
+    background-image: url("/public/category-images/banner-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline:none;
+    border:none;
+    box-shadow:1px 1px 10px black;
+    border-radius:10px;
+}
+.slide-div3 #banner3{
+    background-image: url("/public/category-images/banner-3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline:none;
+    border:none;
+    box-shadow:1px 1px 10px black;
+    border-radius:10px;
+
+}

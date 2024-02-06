@@ -1,0 +1,44 @@
+.image-banner{
+    box-shadow: 1px 1px 10px black;
+    max-width: 98%;
+    margin: 10px;
+    padding-top:50px ;
+    background-image: url("/public/images/bgvegetable.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.image-banner h1{
+    font-size: 4rem;
+    margin: 0px 20px 40px 20px;
+}
+.image-banner p{
+    font-size: 3rem;
+    margin: 40px 20px;
+}
+.image-banner .subscribe{
+    padding: 50px;
+    margin: 40px 20px;
+    width:auto;
+}
+.image-banner .subscribe input{
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 2rem;
+    padding: .5vw;
+    width: 30%;
+    height: 40px;
+    outline: 1px solid black;
+}
+.image-banner .subscribe .subsbtn{
+    width: 15%;
+    border-radius: 10px;
+    height: 2.7vw;
+    color: #1f1d1d;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .2vw;
+    border: none;
+    outline: none;
+    background-color: #4384cf;
+}

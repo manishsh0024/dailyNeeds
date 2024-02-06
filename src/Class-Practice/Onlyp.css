@@ -1,0 +1,23 @@
+.main-prrr{
+    margin: 5vw;
+}
+.main-prrr input{
+    border: 2px solid red;
+    width: 30%;
+    height: 40px;
+    font-size: 2rem;
+    padding: 0 1vw;
+}
+.main-prrr .h11,.h22{
+    background-color: red;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 1vw;
+    margin: 1vw 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.main-prrr button{
+    width: fit-content;
+    margin: 1vw 0 0 1vw;
+}

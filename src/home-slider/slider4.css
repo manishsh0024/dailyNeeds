@@ -1,0 +1,73 @@
+.dh1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.dailyp-main{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.dailyp-main #p-main1{
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin: 20px 1vw;
+    background-image: url("/public/images/banner-4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#p-main1 h1{
+    margin: 20px 10px;
+    font-size: 3rem;
+}
+#p-main1 button{
+        margin: 50px 30px;
+        width: 60%;
+        padding: 10px 10px;
+}
+#p-main1 button:hover{
+  background: black;
+  color: #fff;
+}
+
+ .dailyp-main .p-main:hover{
+    box-shadow: 1px 1px 5px black;
+  }
+  .dailyp-main .p-main{
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px 10px;
+    padding: 10px 5px;
+  }
+  .dailyp-main .img-div{
+    width: 100%;
+    overflow: hidden;
+  }
+  .dailyp-main .img-div img {
+    width: 100%;
+  }
+  .dailyp-main .img-div img:hover{
+    transition: .3s;
+    transform: scale(1.2);
+  }
+  .p-main h1{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .p-main p{
+    font-size: 1.5rem;
+  }
+  .dailyp-main .cart{
+    background-color: green;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 15px 0px;
+    width:70%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.dailyp-main .cart:hover{
+  background: black;
+  color: #fff;
+}

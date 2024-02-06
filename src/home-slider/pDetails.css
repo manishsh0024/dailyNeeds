@@ -1,0 +1,61 @@
+
+.main-pdetails{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.main-pdetails .img-pdetails{
+    
+    width: 40%;
+}
+.main-pdetails .img-pdetails img{
+    width: 100%;
+}
+.main-pdetails .discription{
+    
+    width: 55%;
+    padding: 2vw;
+}
+.main-pdetails .discription .pname{
+    text-transform: capitalize;
+    color: salmon;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: .1vw 0;
+}
+.main-pdetails .discription .ptype{
+    text-transform: capitalize;
+    color: rgb(98, 148, 25);
+    font-size: 3rem;
+    font-weight: 600;
+    padding: .1vw 0;
+}
+.main-pdetails .discription .pprice{
+    text-transform: capitalize;
+    color: red;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: .1vw 0vw;
+    margin-top: 1vw;
+}
+.main-pdetails .discription .pdiscription{
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: .2vw 0;
+    border-bottom: 2px solid;
+}
+.detbtn{
+    height: 3vw;
+    width: fit-content;
+    margin-left: 1vw;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(29, 29, 64);
+    outline: none;
+    box-shadow: 1px 1px 10px black;
+
+}
+.Toastify {
+    background-color: brown !important;
+}

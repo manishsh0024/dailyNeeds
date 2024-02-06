@@ -1,0 +1,102 @@
+.slider6{
+    margin: 1vw auto;
+    height: 515px;
+}
+.slider6 h1{
+    font-size: 3rem;
+    margin: 1vw 0;
+}
+.slider6-in{
+    display: flex;
+    justify-content: space-between;
+}
+.slider-main{
+    box-shadow: 1px 1px 10px black;
+    width: 24%;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+}
+.slider6 #div1{
+    background-image: url("/public/images/banner-5\ -\ Copy.png");
+}
+.slider6 #div2{
+    background-image: url("/public/images/banner-6 - Copy.png");
+}
+.slider6 #div3{
+    background-image: url("/public/images/banner-7 - Copy.png");
+}
+.slider6 #div4{
+    background-image: url("/public/images/banner-8 - Copy.png");
+}
+.slider-main-in{
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    padding: 10px;
+}
+.slider-main-in:hover{
+    transition: .4s;
+    transform: translateY(-5px);
+}
+
+.countdown ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countdown ul li{
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(91, 107, 107);
+    margin: .4vw;
+    padding: .5vw;
+}
+.countdown li h2{
+    font-size: 1.7rem;
+}
+.countdown li p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.slider-main .details h1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.slider-main .details{
+    border-radius: 10px;
+    background: rgb(91, 107, 107);
+    padding: 1vw;
+}
+.slider-main .details p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.slider-main .details h1{
+    font-size: 2rem;
+}
+.slider-main .details .details-in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-main .details .details-in p{
+    font-size: 2rem;
+}
+.slider-main .details .details-in button{
+    width: 55%;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.slider-main .details .details-in button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.slider-main .details .details-in button i{
+    padding: .2vw;
+}
+.slider6-mrp{
+    text-decoration: line-through;
+}

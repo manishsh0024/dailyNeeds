@@ -1,0 +1,94 @@
+.Aboutslider5 .headp{
+    position: relative;
+    text-align: center;
+}
+.Aboutslider5 .headh1{
+    position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 5rem;
+}
+.Aboutslider5 .ourteam-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+.Aboutslider5 .ourteam-main .team-text{
+    width: 30%;
+    padding-bottom: 1vw;
+}
+.Aboutslider5 .ourteam-main .team-text h1{
+    font-size: 3rem;
+    margin: 1vw 0 1vw .5vw;
+}
+.Aboutslider5 .ourteam-main .team-text p{
+    margin: 1vw 0 1vw .5vw;
+    font-size: 2rem;
+}
+.Aboutslider5 .ourteam-main .team-text button{
+    margin-left: 25%;
+    background: green;
+    width: fit-content;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.Aboutslider5 .ourteam-main .team-text button:hover{
+    background: rgb(252, 126, 0);
+    color: #000;
+}
+.Aboutslider5 .ourteam-main .teamtextmap{
+    width: 30%;
+    position: relative;
+}
+.Aboutslider5 .ourteam-main .teamimage{
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 0 5vw 0;
+    border-radius: 10px;
+}
+.Aboutslider5 .ourteam-main .teamimage img{
+    object-fit: cover;
+    object-position: center;
+     width: 100%;
+}
+.Aboutslider5 .ourteam-main .teamtextmap .team-details{
+    font-family: 'Poppins',sans-serif;
+    padding: 0 0 1vw 0;
+    text-align: center;
+    background-color: #c4bcbc;
+    width:80%;
+    border-radius: 10px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Aboutslider5 .ourteam-main .teamtextmap .team-details:hover{
+    transition: .3s;
+    top: 77%;
+}
+.Aboutslider5 .ourteam-main .teamtextmap .team-details h1{
+    font-size: 3rem;
+    color: rgba(252, 0, 84, 0.864);
+    margin: .5vw 0;
+}
+.Aboutslider5 .ourteam-main .teamtextmap .team-details p{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: .5vw 0;
+}
+.Aboutslider5 .ourteam-main .teamtextmap .team-details .icon i{
+    font-size: 2.5rem;
+    margin: .5vw;
+    padding: .5vw;
+    border-radius: 5px;
+    background-color: rgba(252, 0, 84, 0.864);
+    color: rgb(0, 255, 191);
+}
+.Aboutslider5 .ourteam-main .teamtextmap .team-details .icon i:hover{
+    color: rgb(0, 247, 255);
+    background: orangered;
+    transform: scale(1.3);
+}

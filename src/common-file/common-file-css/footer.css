@@ -1,0 +1,142 @@
+
+.main-footer {
+  display: flex;
+  max-width: 100vw;
+  justify-content: space-between;
+  align-items: start;
+  padding-left: 50px;
+}
+#div6{
+  padding-left: 100px;
+}
+
+.main-footer .div1 h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.main-footer .div1 .p-main p {
+  margin-top: 1vw;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.main-footer .div1 .p-main p {
+    margin-top: 1vw;
+  }
+.main-footer .div1 .p-main p i{
+    color: blue;
+  }
+  .main-footer .div1 .p-main .p-info {
+    margin: 0;
+    font-size: 1.7rem;
+  }
+.main-footer #logo {
+  margin: 0;
+}
+.main-footer #logo img {
+  margin: 0;
+}
+.main-footer .div2{
+  width: 30%;
+  padding: 3vw;
+}
+.main-footer .div2 h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.main-footer .div2 p,a {
+  margin-top: 1.5vw;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.main-footer .div2 a:hover {
+  color: #ff5100;
+}
+
+.main-footer .payment-icon{
+    margin: 2.5vw .5vw;
+}
+.main-footer .payment-icon img {
+    margin: 1vw .5vw;
+  width: 50px;
+  height: 50px;
+}
+.div2 h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.div2 .icon{
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    align-items:start;
+    margin-bottom: 1vw;
+}
+.div2 .icon p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #ff5100;
+    padding: .1vw .2vw;
+    text-align: start;
+}
+.div2 .icon p span{
+    font-size: 2rem;
+}
+.div2 .icon i{
+    font-size: 2rem;
+    padding: 0 .2vw;
+}
+
+.footer-below{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1vw;
+}
+.footer-below #one p{
+    font-size: 1.5rem;
+}
+.footer-below #one span{
+    color: #ff0501;
+}
+.div2-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 54%;
+}
+.div2-main p:hover{
+  transition: .5s ;
+  padding-left: 3px;
+  color: red;
+}
+.footer-below #two{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-below #two p{
+    display: flex;
+    font-size: 1.7rem;
+}
+
+.footer-below #three h1{
+    display: flex;
+    font-size: 1.7rem;
+}
+.footer-below #three h1 p{
+    padding-left:2vw;
+}
+.footer-below #three .last{
+    font-size: 1.7rem;
+}
+.footer-below #three h1 i{
+  font-size: 1.7rem;
+    padding: 5px;
+    color: rgb(255, 0, 0);
+}
+.footer-below #three h1 i:hover{
+    color: black;
+}

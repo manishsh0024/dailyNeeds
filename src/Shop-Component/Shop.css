@@ -1,0 +1,39 @@
+.shop-container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.Shop-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 3vw;
+}
+.shop-div1{
+    width: 25%;
+    border-radius: 10px;
+}
+.shop-div2{
+    width: 74%;
+    
+}
+.shop-div2 .shopcartbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-div2 .shopcartbtn h1{
+    font-size: 1.7rem;
+    font-size: bolder;
+}
+.shop-div2 .shopcartbtn .h2{
+    text-decoration: line-through;
+}
+.shop-div2 .shopcartbtn button{
+    padding: .5vw 0;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.shop-div2 .shopcartbtn button:hover{
+    color: #000;
+    background-color: greenyellow;
+}
